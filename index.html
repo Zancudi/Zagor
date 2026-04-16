@@ -380,21 +380,12 @@ document.querySelector(&quot;a.link-internal&quot;).style.display = &quot;none&q
  &lt;&lt;/switch&gt;&gt;
   
 &lt;&lt;/if&gt;&gt;
-</tw-passagedata><tw-passagedata pid="3" name="rien" tags="" position="1750,2075" size="100,100"></tw-passagedata><tw-passagedata pid="4" name="Intro4d" tags="" position="1000,0" size="100,100">&lt;&lt;run stroboscope()&gt;&gt;
-&lt;&lt;run secouer()&gt;&gt;
-&lt;center&gt;&lt;img src=&quot;ImgSet\ZagStrip.png&quot; width=&quot;800&quot;&gt;&lt;/center&gt;
-[[continuer-&gt;Intro5]]
-&lt;&lt;script&gt;&gt;
-document.querySelector(&quot;a.link-internal&quot;).style.display = &quot;none&quot;;
-&lt;&lt;/script&gt;&gt;
-</tw-passagedata><tw-passagedata pid="5" name="Intro4c" tags="" position="900,0" size="100,100">&lt;&lt;run stroboscope()&gt;&gt;
+</tw-passagedata><tw-passagedata pid="3" name="rien" tags="" position="1750,2075" size="100,100"></tw-passagedata><tw-passagedata pid="4" name="Intro4d" tags="" position="1150,0" size="100,100"></tw-passagedata><tw-passagedata pid="5" name="Intro4c" tags="" position="1000,100" size="100,100">&lt;&lt;run stroboscope()&gt;&gt;
 &lt;&lt;run secouer()&gt;&gt;
 &lt;center&gt;&lt;img src=&quot;ImgSet\ZagFace.png&quot; width=&quot;2000&quot;&gt;&lt;/center&gt;
-[[continuer-&gt;Intro5]]
-&lt;&lt;script&gt;&gt;
-document.querySelector(&quot;a.link-internal&quot;).style.display = &quot;none&quot;;
-&lt;&lt;/script&gt;&gt;
-</tw-passagedata><tw-passagedata pid="6" name="StoryInit" tags="" position="0,0" size="100,100">&lt;&lt;set Config.history.maxStates = 1&gt;&gt;
+&lt;&lt;timed 2s&gt;&gt;
+  &lt;&lt;goto &quot;Intro5&quot;&gt;&gt;
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="6" name="StoryInit" tags="" position="0,0" size="100,100">&lt;&lt;set Config.history.maxStates = 1&gt;&gt;
 
 &lt;&lt;set $characterChosen = false&gt;&gt;
 
@@ -804,11 +795,9 @@ Vous sentez la rage vous envahir et votre machoire se serrer car devant vous, c&
 &lt;&lt;run stroboscope()&gt;&gt;
 &lt;&lt;run secouer()&gt;&gt;
 &lt;center&gt;&lt;img src=&quot;ImgSet\ZagFace.png&quot; width=&quot;800&quot;&gt;&lt;/center&gt;
-
-[[continuer-&gt;Intro4b]]
-&lt;&lt;script&gt;&gt;
-document.querySelector(&quot;a.link-internal&quot;).style.display = &quot;none&quot;;
-&lt;&lt;/script&gt;&gt;
+&lt;&lt;timed 2s&gt;&gt;
+  &lt;&lt;goto &quot;Intro4b&quot;&gt;&gt;
+&lt;&lt;/timed&gt;&gt;
 
 
 
@@ -975,14 +964,12 @@ Vous échangez un dernier regard avec le jeune homme et Sallazar, avant de leur 
 
 « Bonne chance Rablaix. »
 
-[[Continuer-&gt;KerpierreR2]]</tw-passagedata><tw-passagedata pid="44" name="Intro4b" tags="" position="1000,100" size="100,100">&lt;&lt;run stroboscope()&gt;&gt;
+[[Continuer-&gt;KerpierreR2]]</tw-passagedata><tw-passagedata pid="44" name="Intro4b" tags="" position="950,0" size="100,100">&lt;&lt;run stroboscope()&gt;&gt;
 &lt;&lt;run secouer()&gt;&gt;
 &lt;center&gt;&lt;img src=&quot;ImgSet\Mage3.png&quot; width=&quot;1000&quot;&gt;&lt;/center&gt;
-
-[[continuer-&gt;Intro4c]]
-&lt;&lt;script&gt;&gt;
-document.querySelector(&quot;a.link-internal&quot;).style.display = &quot;none&quot;;
-&lt;&lt;/script&gt;&gt;</tw-passagedata><tw-passagedata pid="45" name="Rablaix1b" tags="" position="725,450" size="100,100">« Je vais ordonner dès ce soir que l&#39;on prépare un vaisseau et son équipage pour vous mener vers l&#39;ouest, jusqu&#39;à l&#39;île de la Tour ou se dressent les ruines sinistres du Château d&#39;Argent. En attendant, vous pouvez passer la nuit dans les appartements reservés aux ambassadeurs, et aux invités de prestige. Rablaix ... »  Le roi s&#39;assombrit soudainement, baissant les yeux au sol. «  Je sais que c&#39;est peu de chose, les coffres du trésor sont vides et cela fait des années que le royaume subsiste grâce aux prêts concédés par la Gründie, - en relevant les yeux vers vous -  mais voici de quoi, je l&#39;espère, couvrir vos dépenses d&#39;ici votre départ. Aussi, n&#39;oubliez pas de passer par les cuisines demain matin, et prenez toutes les vivres dont vous aurez besoin. »
+&lt;&lt;timed 2s&gt;&gt;
+  &lt;&lt;goto &quot;Intro4c&quot;&gt;&gt;
+&lt;&lt;/timed&gt;&gt;</tw-passagedata><tw-passagedata pid="45" name="Rablaix1b" tags="" position="725,450" size="100,100">« Je vais ordonner dès ce soir que l&#39;on prépare un vaisseau et son équipage pour vous mener vers l&#39;ouest, jusqu&#39;à l&#39;île de la Tour ou se dressent les ruines sinistres du Château d&#39;Argent. En attendant, vous pouvez passer la nuit dans les appartements reservés aux ambassadeurs, et aux invités de prestige. Rablaix ... »  Le roi s&#39;assombrit soudainement, baissant les yeux au sol. «  Je sais que c&#39;est peu de chose, les coffres du trésor sont vides et cela fait des années que le royaume subsiste grâce aux prêts concédés par la Gründie, - en relevant les yeux vers vous -  mais voici de quoi, je l&#39;espère, couvrir vos dépenses d&#39;ici votre départ. Aussi, n&#39;oubliez pas de passer par les cuisines demain matin, et prenez toutes les vivres dont vous aurez besoin. »
 
 Le roi vous tend une bourse de quelques pièces d&#39;or, vous regarde solenellement et s&#39;en retourne vers son trône. « Bonne chance Rablaix. »
 
